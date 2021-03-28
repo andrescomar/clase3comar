@@ -36,3 +36,24 @@ do {
     numero = prompt("ingrese numero");
     console.log(numero);
 } while (parseInt(numero));
+
+// SWITCH 
+let SwitchDatos = prompt("ingrese datos(si ingresas ESC termina)");
+
+while(SwitchDatos != "ESC"){
+
+    switch (SwitchDatos) {
+        case "Nintento":
+             console.log("Hola Nintento Switch")
+            break;
+        case "Play":
+             console.log("Hola PlayStation")
+        default:
+             console.log("No se permite Xbox")
+            break;
+    }
+
+
+    SwitchDatos = prompt("ingrese datos(si ingresas ESC termina)");
+}
+
