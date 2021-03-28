@@ -29,3 +29,10 @@ while( datosEntrada != "ESC"){
     console.log("el usuario ingreso " + datosEntrada);
     datosEntrada = prompt("ingrese datos(si ingresas ESC termina)");
 }
+
+let numero = 0;
+
+do {
+    numero = prompt("ingrese numero");
+    console.log(numero);
+} while (parseInt(numero));
