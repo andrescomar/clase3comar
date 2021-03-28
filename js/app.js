@@ -1,4 +1,4 @@
-
+// FOR
 
 for (let index = 0; index <= 10; index++) {
     console.log("Estamos contando el numero es: " + index)    
@@ -19,4 +19,13 @@ for (let index = 0; ; index++) {
     if (index > 10) {
         break;
     }
+}
+
+// WHILE
+
+let datosEntrada = prompt("ingrese datos(si ingresas ESC termina)")
+
+while( datosEntrada != "ESC"){
+    console.log("el usuario ingreso " + datosEntrada);
+    datosEntrada = prompt("ingrese datos(si ingresas ESC termina)");
 }
